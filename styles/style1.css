@@ -1,0 +1,16 @@
+.admin-btn{
+    padding: 10px;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    border: cyan solid 3px;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.navBarDivider{
+    width: 100%;
+    padding: 20px;
+}
