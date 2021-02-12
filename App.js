@@ -7,6 +7,7 @@ import AdminNavBarComponent from './Component/AdminNavBarComponent'
 import HomeEditor from './Component/HomeEditor'
 import MenuEditor from './Component/MenuEditor'
 import Home from './Component/Home'
+import Contact from './Component/Contact'
 import ImageContent from './Component/ImageContent'
 
 import API from './Function/useAPI'
@@ -98,10 +99,10 @@ function App(props) {
                                     )
                                 }}
                             />
-                            <Route path={'/Home'} component={Home} />
+                            <Route path={'/Contact'} component={Contact} />
                             <Route path={'/HomeEditor'} component={HomeEditor} />
                             <Route path={'/MenuEditor'} component={MenuEditor} />
-                            <Route path={'/:routename'} component={ImageContent} />
+                            <Route path={'/:routename'} component={Home} />
                         </Switch>
                     </Col>
                 </Row>

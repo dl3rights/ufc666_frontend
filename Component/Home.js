@@ -2,11 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Button, Container, Row, Col, Form } from 'react-bootstrap';
 import Login from './Login'
 
+import { useParams } from 'react-router-dom';
 import { useRecoilState } from 'recoil';
 import { IsLoginState, IsAdminState, OpenAdminState } from '../Recoil';
 
 function Home(props){
 
+    let { routename } = useParams();
+    
     const [IsLogin, setIsLogin] = useRecoilState(IsLoginState);
     const [IsAdmin, setIsAdmin] = useRecoilState(IsAdminState);
 
@@ -43,11 +46,11 @@ function Home(props){
                         </Col>
                         <Col>
                         {IsLogin ? (
-                                <div>Already Login</div>
+                                <div>Already Login {routename}</div>
                             )
                         :
                             (
-                                <Login />
+                                <Login goto={routename}/>
                             )}
                         </Col>
                     </Row>

@@ -21,12 +21,14 @@ function Login(props){
 
     function SubmitLogin(){
 
-        API.Authentication(Username,Password)
+        setIsAdmin(true)
+        setIsLogin(true)
+        /*API.Authentication(Username,Password)
         .then(response => {
             console.log(response);
             setIsAdmin(true)
             setIsLogin(true)
-        })
+        })*/
     }
 
     return (
@@ -40,7 +42,7 @@ function Login(props){
                 <Form.Control type='text' placeholder='Enter Password' value={Password} onChange={(e) => {setPassword(e.target.value)}} />
             </Form.Group>
             <Button variant="primary" onClick={()=>{SubmitLogin()}}>
-                Login
+                Login to {props.goto}
             </Button>
         </Form>
     )

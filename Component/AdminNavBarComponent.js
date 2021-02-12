@@ -13,9 +13,9 @@ function AdminNavBarComponent(props){
     return (
         <div className='navBarDivider shadow-sm'>
             <NavButton src='' alt='Home Editor' to='/HomeEditor'/>
-            <NavButton src='' alt='Menu Editor' to='/MenuEditor'/>
         </div>
     )
 }
 
 export default AdminNavBarComponent
+//<NavButton src='' alt='Menu Editor' to='/MenuEditor'/>

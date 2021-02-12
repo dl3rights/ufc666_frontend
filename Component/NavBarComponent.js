@@ -7,6 +7,13 @@ import API from '../Function/useAPI'
 
 import socket from '../Socket'
 
+import HomeLogo from '../images/Menu/Logo_Small.png'
+import Sport from '../images/Menu/Sport.png'
+import SlotGame from '../images/Menu/SlotGame.png'
+import Casino from '../images/Menu/Casino.png'
+import Lotto from '../images/Menu/Lotto.png'
+import Contact from '../images/Menu/Contact.png'
+
 function NavBarComponent(props){
 
     const [MenuList, setMenuList] = useState()
@@ -28,16 +35,24 @@ function NavBarComponent(props){
 
     return (
         <div className='navBarDivider shadow-sm'>
-            <NavButton src='' alt='Home' to='/Home'/>
-            {MenuList && 
+            <NavButton src={HomeLogo} alt='Home' to='/Home'/>
+            <NavButton src={Sport} alt='Sport' to='/Sport'/>
+            <NavButton src={SlotGame} alt='SlotGame' to='/SlotGame'/>
+            <NavButton src={Casino} alt='Casino' to='/Casino'/>
+            <NavButton src={Lotto} alt='Lotto' to='/Lotto'/>
+            <NavButton src={Contact} alt='Contact' to='/Contact'/>
+        </div>
+    )
+}
+
+export default NavBarComponent
+
+/*
+{MenuList && 
                 MenuList.map((v,i) => {
                     return (
                         <NavButton key={'NavBar-00'+i} src={v.image} alt={v.name} to={'/'+v.name}/>
                     )
                 })
             }
-        </div>
-    )
-}
-
-export default NavBarComponent
+*/
