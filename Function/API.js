@@ -160,30 +160,38 @@ class API {
           }
     }
 
-    async UploadImage(base64,filename){
-        try {       
-            let data = 'Don\'t Return' 
-            await fetch(base64)
-            .then(async response => response.blob())
-            .then(async blob => {
-      
-                const formdata = new FormData();
-                const file = new File([blob], filename)
-      
-                formdata.append('image',file)
-      
-                data = await (await (fetch(this.url+'upload',{method:'post',body: formdata})
-                .then( response => { return response.json().text() })
-                .catch(err => {
-                  //sc.ErrorLogs('UploadImage ',err.message)
-                   //console.log('Error : '+err) 
-                  })))
-      
-            })
-            return data
-          } catch (error) {
-            return error
-          }
+    async UploadBanner1(files){
+      try {
+        let data = await (await (fetch( this.url + 'uploadBannerImage1', {method:'post',body: files} )
+        .then(handleErrors)
+          .then(function(response) {
+              return response.json()
+          }).catch(function(error) {
+              //sc.ErrorLogs('UploadLogos ',error.message +' ('+files+')')
+              return error
+          })
+          ))
+         return data;
+      } catch (error) {
+        return error
+      }
+    }
+
+    async UploadBanner2(files){
+      try {
+        let data = await (await (fetch( this.url + 'uploadBannerImage2', {method:'post',body: files} )
+        .then(handleErrors)
+          .then(function(response) {
+              return response.json()
+          }).catch(function(error) {
+              //sc.ErrorLogs('UploadLogos ',error.message +' ('+files+')')
+              return error
+          })
+          ))
+         return data;
+      } catch (error) {
+        return error
+      }
     }
 
     async CheckAuth(){

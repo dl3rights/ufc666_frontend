@@ -34,12 +34,12 @@ function Home(props){
                             <Container>
                                 <Row>
                                     <Col>
-                                        <img src={''} alt={'Picture1'} />
+                                        <img src={process.env.REACT_APP_URL+'/banner?f=Banner01'} alt={'Picture1'} />
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col>
-                                        <img src={''} alt={'Picture2'} />
+                                        <img src={process.env.REACT_APP_URL+'/banner?f=Banner02'} alt={'Picture2'} />
                                     </Col>
                                 </Row>
                             </Container>

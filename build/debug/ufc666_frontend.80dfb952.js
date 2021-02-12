@@ -51611,75 +51611,113 @@ var API = /*#__PURE__*/function () {
       return Remove;
     }()
   }, {
-    key: "UploadImage",
+    key: "UploadBanner1",
     value: function () {
-      var _UploadImage = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee11(base64, filename) {
-        var _this = this;
+      var _UploadBanner = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee9(files) {
+        var data;
+        return _regenerator["default"].wrap(function _callee9$(_context9) {
+          while (1) {
+            switch (_context9.prev = _context9.next) {
+              case 0:
+                _context9.prev = 0;
+                _context9.next = 3;
+                return fetch(this.url + 'uploadBannerImage1', {
+                  method: 'post',
+                  body: files
+                }).then(handleErrors).then(function (response) {
+                  return response.json();
+                })["catch"](function (error) {
+                  //sc.ErrorLogs('UploadLogos ',error.message +' ('+files+')')
+                  return error;
+                });
 
+              case 3:
+                data = _context9.sent;
+                return _context9.abrupt("return", data);
+
+              case 7:
+                _context9.prev = 7;
+                _context9.t0 = _context9["catch"](0);
+                return _context9.abrupt("return", _context9.t0);
+
+              case 10:
+              case "end":
+                return _context9.stop();
+            }
+          }
+        }, _callee9, this, [[0, 7]]);
+      }));
+
+      function UploadBanner1(_x16) {
+        return _UploadBanner.apply(this, arguments);
+      }
+
+      return UploadBanner1;
+    }()
+  }, {
+    key: "UploadBanner2",
+    value: function () {
+      var _UploadBanner2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee10(files) {
+        var data;
+        return _regenerator["default"].wrap(function _callee10$(_context10) {
+          while (1) {
+            switch (_context10.prev = _context10.next) {
+              case 0:
+                _context10.prev = 0;
+                _context10.next = 3;
+                return fetch(this.url + 'uploadBannerImage2', {
+                  method: 'post',
+                  body: files
+                }).then(handleErrors).then(function (response) {
+                  return response.json();
+                })["catch"](function (error) {
+                  //sc.ErrorLogs('UploadLogos ',error.message +' ('+files+')')
+                  return error;
+                });
+
+              case 3:
+                data = _context10.sent;
+                return _context10.abrupt("return", data);
+
+              case 7:
+                _context10.prev = 7;
+                _context10.t0 = _context10["catch"](0);
+                return _context10.abrupt("return", _context10.t0);
+
+              case 10:
+              case "end":
+                return _context10.stop();
+            }
+          }
+        }, _callee10, this, [[0, 7]]);
+      }));
+
+      function UploadBanner2(_x17) {
+        return _UploadBanner2.apply(this, arguments);
+      }
+
+      return UploadBanner2;
+    }()
+  }, {
+    key: "CheckAuth",
+    value: function () {
+      var _CheckAuth = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee11() {
         var data;
         return _regenerator["default"].wrap(function _callee11$(_context11) {
           while (1) {
             switch (_context11.prev = _context11.next) {
               case 0:
                 _context11.prev = 0;
-                data = 'Don\'t Return';
-                _context11.next = 4;
-                return fetch(base64).then( /*#__PURE__*/function () {
-                  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee9(response) {
-                    return _regenerator["default"].wrap(function _callee9$(_context9) {
-                      while (1) {
-                        switch (_context9.prev = _context9.next) {
-                          case 0:
-                            return _context9.abrupt("return", response.blob());
+                _context11.next = 3;
+                return fetch(this.url + 'User/CheckAuth', this.JWTHeader).then(handleErrors).then(function (response) {
+                  return response.json();
+                })["catch"](function (error) {
+                  sc.ErrorLogs('CheckAuth ' + Data, error.message);
+                  return error;
+                });
 
-                          case 1:
-                          case "end":
-                            return _context9.stop();
-                        }
-                      }
-                    }, _callee9);
-                  }));
-
-                  return function (_x18) {
-                    return _ref.apply(this, arguments);
-                  };
-                }()).then( /*#__PURE__*/function () {
-                  var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee10(blob) {
-                    var formdata, file;
-                    return _regenerator["default"].wrap(function _callee10$(_context10) {
-                      while (1) {
-                        switch (_context10.prev = _context10.next) {
-                          case 0:
-                            formdata = new FormData();
-                            file = new File([blob], filename);
-                            formdata.append('image', file);
-                            _context10.next = 5;
-                            return fetch(_this.url + 'upload', {
-                              method: 'post',
-                              body: formdata
-                            }).then(function (response) {
-                              return response.json().text();
-                            })["catch"](function (err) {//sc.ErrorLogs('UploadImage ',err.message)
-                              //console.log('Error : '+err) 
-                            });
-
-                          case 5:
-                            data = _context10.sent;
-
-                          case 6:
-                          case "end":
-                            return _context10.stop();
-                        }
-                      }
-                    }, _callee10);
-                  }));
-
-                  return function (_x19) {
-                    return _ref2.apply(this, arguments);
-                  };
-                }());
-
-              case 4:
+              case 3:
+                data = _context11.sent;
                 return _context11.abrupt("return", data);
 
               case 7:
@@ -51692,19 +51730,19 @@ var API = /*#__PURE__*/function () {
                 return _context11.stop();
             }
           }
-        }, _callee11, null, [[0, 7]]);
+        }, _callee11, this, [[0, 7]]);
       }));
 
-      function UploadImage(_x16, _x17) {
-        return _UploadImage.apply(this, arguments);
+      function CheckAuth() {
+        return _CheckAuth.apply(this, arguments);
       }
 
-      return UploadImage;
+      return CheckAuth;
     }()
   }, {
-    key: "CheckAuth",
+    key: "Authentication",
     value: function () {
-      var _CheckAuth = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee12() {
+      var _Authentication = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee12(Username, Password, Level) {
         var data;
         return _regenerator["default"].wrap(function _callee12$(_context12) {
           while (1) {
@@ -51712,10 +51750,18 @@ var API = /*#__PURE__*/function () {
               case 0:
                 _context12.prev = 0;
                 _context12.next = 3;
-                return fetch(this.url + 'User/CheckAuth', this.JWTHeader).then(handleErrors).then(function (response) {
+                return fetch(this.url + 'User/SignIn', {
+                  headers: this.JWTHeaderPost,
+                  method: 'post',
+                  body: JSON.stringify({
+                    username: Username,
+                    password: Password,
+                    level: Level
+                  })
+                }).then(handleErrors).then(function (response) {
                   return response.json();
                 })["catch"](function (error) {
-                  sc.ErrorLogs('CheckAuth ' + Data, error.message);
+                  sc.ErrorLogs('Authentication ' + Data, error.message + ' (' + Username + ',' + Level + ')');
                   return error;
                 });
 
@@ -51736,16 +51782,16 @@ var API = /*#__PURE__*/function () {
         }, _callee12, this, [[0, 7]]);
       }));
 
-      function CheckAuth() {
-        return _CheckAuth.apply(this, arguments);
+      function Authentication(_x18, _x19, _x20) {
+        return _Authentication.apply(this, arguments);
       }
 
-      return CheckAuth;
+      return Authentication;
     }()
   }, {
-    key: "Authentication",
+    key: "MoveLeft",
     value: function () {
-      var _Authentication = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee13(Username, Password, Level) {
+      var _MoveLeft = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee13(MenuId) {
         var data;
         return _regenerator["default"].wrap(function _callee13$(_context13) {
           while (1) {
@@ -51753,18 +51799,18 @@ var API = /*#__PURE__*/function () {
               case 0:
                 _context13.prev = 0;
                 _context13.next = 3;
-                return fetch(this.url + 'User/SignIn', {
-                  headers: this.JWTHeaderPost,
+                return fetch(this.url + 'Menu/Left', {
+                  headers: {
+                    'Content-Type': 'application/json'
+                  },
                   method: 'post',
                   body: JSON.stringify({
-                    username: Username,
-                    password: Password,
-                    level: Level
+                    id: MenuId
                   })
                 }).then(handleErrors).then(function (response) {
                   return response.json();
                 })["catch"](function (error) {
-                  sc.ErrorLogs('Authentication ' + Data, error.message + ' (' + Username + ',' + Level + ')');
+                  sc.ErrorLogs('MoveLeft ' + MenuId, error.message);
                   return error;
                 });
 
@@ -51785,16 +51831,16 @@ var API = /*#__PURE__*/function () {
         }, _callee13, this, [[0, 7]]);
       }));
 
-      function Authentication(_x20, _x21, _x22) {
-        return _Authentication.apply(this, arguments);
+      function MoveLeft(_x21) {
+        return _MoveLeft.apply(this, arguments);
       }
 
-      return Authentication;
+      return MoveLeft;
     }()
   }, {
-    key: "MoveLeft",
+    key: "MoveRight",
     value: function () {
-      var _MoveLeft = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee14(MenuId) {
+      var _MoveRight = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee14(MenuId) {
         var data;
         return _regenerator["default"].wrap(function _callee14$(_context14) {
           while (1) {
@@ -51802,7 +51848,7 @@ var API = /*#__PURE__*/function () {
               case 0:
                 _context14.prev = 0;
                 _context14.next = 3;
-                return fetch(this.url + 'Menu/Left', {
+                return fetch(this.url + 'Menu/Right', {
                   headers: {
                     'Content-Type': 'application/json'
                   },
@@ -51813,7 +51859,7 @@ var API = /*#__PURE__*/function () {
                 }).then(handleErrors).then(function (response) {
                   return response.json();
                 })["catch"](function (error) {
-                  sc.ErrorLogs('MoveLeft ' + MenuId, error.message);
+                  sc.ErrorLogs('MoveRight ' + MenuId, error.message);
                   return error;
                 });
 
@@ -51834,56 +51880,7 @@ var API = /*#__PURE__*/function () {
         }, _callee14, this, [[0, 7]]);
       }));
 
-      function MoveLeft(_x23) {
-        return _MoveLeft.apply(this, arguments);
-      }
-
-      return MoveLeft;
-    }()
-  }, {
-    key: "MoveRight",
-    value: function () {
-      var _MoveRight = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee15(MenuId) {
-        var data;
-        return _regenerator["default"].wrap(function _callee15$(_context15) {
-          while (1) {
-            switch (_context15.prev = _context15.next) {
-              case 0:
-                _context15.prev = 0;
-                _context15.next = 3;
-                return fetch(this.url + 'Menu/Right', {
-                  headers: {
-                    'Content-Type': 'application/json'
-                  },
-                  method: 'post',
-                  body: JSON.stringify({
-                    id: MenuId
-                  })
-                }).then(handleErrors).then(function (response) {
-                  return response.json();
-                })["catch"](function (error) {
-                  sc.ErrorLogs('MoveRight ' + MenuId, error.message);
-                  return error;
-                });
-
-              case 3:
-                data = _context15.sent;
-                return _context15.abrupt("return", data);
-
-              case 7:
-                _context15.prev = 7;
-                _context15.t0 = _context15["catch"](0);
-                return _context15.abrupt("return", _context15.t0);
-
-              case 10:
-              case "end":
-                return _context15.stop();
-            }
-          }
-        }, _callee15, this, [[0, 7]]);
-      }));
-
-      function MoveRight(_x24) {
+      function MoveRight(_x22) {
         return _MoveRight.apply(this, arguments);
       }
 
@@ -67896,6 +67893,8 @@ var _recoil = require("recoil");
 
 var _Recoil = require("../Recoil");
 
+var _useAPI = _interopRequireDefault(require("../Function/useAPI"));
+
 var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\HomeEditor.js";
 
 function HomeEditor(props) {
@@ -67914,12 +67913,49 @@ function HomeEditor(props) {
       OpenAdmin = _useRecoilState6[0],
       setOpenAdmin = _useRecoilState6[1];
 
+  var _useState = (0, _react.useState)(),
+      _useState2 = (0, _slicedToArray2["default"])(_useState, 2),
+      Banner1 = _useState2[0],
+      setBanner1 = _useState2[1];
+
+  var _useState3 = (0, _react.useState)(),
+      _useState4 = (0, _slicedToArray2["default"])(_useState3, 2),
+      Banner2 = _useState4[0],
+      setBanner2 = _useState4[1];
+
   (0, _react.useEffect)(function () {}, [IsLogin]);
+
+  function UploadBanner1(file) {
+    if (file && file.length > 0) {
+      var data = new FormData();
+      data.append('files', file[0]);
+
+      _useAPI["default"].UploadBanner1(data).then(function (response) {
+        if (response) {//console.log(response);
+          //document.getElementById('InputUploadLoad').value = ''
+        } else {}
+      });
+    }
+  }
+
+  function UploadBanner2(file) {
+    if (file && file.length > 0) {
+      var data = new FormData();
+      data.append('files', file[0]);
+
+      _useAPI["default"].UploadBanner2(data).then(function (response) {
+        if (response) {//console.log(response);
+          //document.getElementById('InputUploadLoad').value = ''
+        } else {}
+      });
+    }
+  }
+
   return /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Container, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 57,
       columnNumber: 9
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Card, {
@@ -67927,28 +67963,28 @@ function HomeEditor(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 58,
       columnNumber: 13
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Card.Header, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 59,
       columnNumber: 17
     }
   }, "Home Editor."), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Card.Body, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 60,
       columnNumber: 17
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Card.Title, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 61,
       columnNumber: 21
     }
   }, "Upload Banner 1"), /*#__PURE__*/_react["default"].createElement("div", {
@@ -67956,7 +67992,7 @@ function HomeEditor(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 62,
       columnNumber: 21
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.File, {
@@ -67965,15 +68001,18 @@ function HomeEditor(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 63,
       columnNumber: 25
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.File.Input, {
     isValid: true,
+    onChange: function onChange(e) {
+      setBanner1(e.target.files);
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 64,
       columnNumber: 25
     }
   }), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.File.Label, {
@@ -67981,29 +68020,32 @@ function HomeEditor(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 65,
       columnNumber: 25
     }
   }, ".jpg .png .gif"))), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Button, {
     variant: "primary",
+    onClick: function onClick() {
+      UploadBanner1(Banner1);
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 70,
       columnNumber: 21
     }
   }, "Upload Banner 1"), /*#__PURE__*/_react["default"].createElement("hr", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 71,
       columnNumber: 21
     }
   }), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Card.Title, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 72,
       columnNumber: 21
     }
   }, "Upload Banner 2"), /*#__PURE__*/_react["default"].createElement("div", {
@@ -68011,7 +68053,7 @@ function HomeEditor(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 73,
       columnNumber: 21
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.File, {
@@ -68020,15 +68062,18 @@ function HomeEditor(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 74,
       columnNumber: 25
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.File.Input, {
     isValid: true,
+    onChange: function onChange(e) {
+      setBanner2(e.target.files);
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 75,
       columnNumber: 25
     }
   }), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.File.Label, {
@@ -68036,15 +68081,18 @@ function HomeEditor(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 76,
       columnNumber: 25
     }
   }, ".jpg .png .gif"))), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Button, {
     variant: "primary",
+    onClick: function onClick() {
+      UploadBanner2(Banner2);
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 81,
       columnNumber: 21
     }
   }, "Upload Banner 2")), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Card.Footer, {
@@ -68052,7 +68100,7 @@ function HomeEditor(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 83,
       columnNumber: 17
     }
   }, "^_^")));
@@ -68060,7 +68108,7 @@ function HomeEditor(props) {
 
 var _default = HomeEditor;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js"}],"../Component/MenuEditor.js":[function(require,module,exports) {
+},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js","../Function/useAPI":"../Function/useAPI.js"}],"../Component/MenuEditor.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
@@ -68383,7 +68431,7 @@ function Home(props) {
       columnNumber: 37
     }
   }, /*#__PURE__*/_react["default"].createElement("img", {
-    src: '',
+    src: "http://127.0.0.1:5000" + '/banner?f=Banner01',
     alt: 'Picture1',
     __self: this,
     __source: {
@@ -68406,7 +68454,7 @@ function Home(props) {
       columnNumber: 37
     }
   }, /*#__PURE__*/_react["default"].createElement("img", {
-    src: '',
+    src: "http://127.0.0.1:5000" + '/banner?f=Banner02',
     alt: 'Picture2',
     __self: this,
     __source: {
@@ -68441,7 +68489,11 @@ function Home(props) {
 
 var _default = Home;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js"}],"../Component/Contact.js":[function(require,module,exports) {
+},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js"}],"../images/Login/QR.png":[function(require,module,exports) {
+"use strict";
+
+module.exports = "/QR.2b19ec39.png";
+},{}],"../Component/Contact.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
@@ -68464,6 +68516,8 @@ var _Login = _interopRequireDefault(require("./Login"));
 var _recoil = require("recoil");
 
 var _Recoil = require("../Recoil");
+
+var _QR = _interopRequireDefault(require("../images/Login/QR.png"));
 
 var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\Contact.js";
 
@@ -68488,15 +68542,24 @@ function Home(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 22,
       columnNumber: 9
     }
-  }, "QR Code");
+  }, /*#__PURE__*/_react["default"].createElement("img", {
+    src: _QR["default"],
+    alt: "QRCode",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 13
+    }
+  }));
 }
 
 var _default = Home;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js"}],"../Component/ImageContent.js":[function(require,module,exports) {
+},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js","../images/Login/QR.png":"../images/Login/QR.png"}],"../Component/ImageContent.js":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");

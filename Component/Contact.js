@@ -5,6 +5,8 @@ import Login from './Login'
 import { useRecoilState } from 'recoil';
 import { IsLoginState, IsAdminState, OpenAdminState } from '../Recoil';
 
+import QRCode from '../images/Login/QR.png'
+
 function Home(props){
 
     const [IsLogin, setIsLogin] = useRecoilState(IsLoginState);
@@ -18,7 +20,7 @@ function Home(props){
 
     return (
         <Container>
-            QR Code
+            <img src={QRCode} alt='QRCode' />
         </Container>
     )
 }
