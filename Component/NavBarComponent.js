@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button, Container } from 'react-bootstrap';
+import { Button, Container, Navbar, Nav } from 'react-bootstrap';
 
 import NavButton from './NavButton'
 
@@ -13,34 +13,44 @@ import SlotGame from '../images/Menu/SlotGame.png'
 import Casino from '../images/Menu/Casino.png'
 import Lotto from '../images/Menu/Lotto.png'
 import Contact from '../images/Menu/Contact.png'
+import HeaderBorder from '../images/Menu/Header_Border.png'
 
-function NavBarComponent(props){
+function NavBarComponent(props) {
 
     const [MenuList, setMenuList] = useState()
 
-    function LoadMenuList(){
+    function LoadMenuList() {
         API.GetAll('Menu')
-        .then(respond => {
-            console.log(respond);
-            setMenuList(respond)
-        })
+            .then(respond => {
+                console.log(respond);
+                setMenuList(respond)
+            })
     }
 
     useEffect(() => {
-        socket.on('RefreshLoadMenuList',() => {
+        socket.on('RefreshLoadMenuList', () => {
             LoadMenuList()
         })
         LoadMenuList()
     }, [])
 
     return (
-        <div className='navBarDivider shadow-sm'>
-            <NavButton src={HomeLogo} alt='Home' to='/Home'/>
-            <NavButton src={Sport} alt='Sport' to='/Sport'/>
-            <NavButton src={SlotGame} alt='SlotGame' to='/SlotGame'/>
-            <NavButton src={Casino} alt='Casino' to='/Casino'/>
-            <NavButton src={Lotto} alt='Lotto' to='/Lotto'/>
-            <NavButton src={Contact} alt='Contact' to='/Contact'/>
+        <div>
+            <img src={HeaderBorder} className='header' />
+            <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
+                <Navbar.Brand ><NavButton src={HomeLogo} alt='Home' to='/Home' className='mx-auto' /></Navbar.Brand>
+
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav ">
+                    <Nav className="nav-menu ml-auto">
+                        <NavButton src={Sport} alt='Sport' to='/Sport' />
+                        <NavButton src={SlotGame} alt='SlotGame' to='/SlotGame' />
+                        <NavButton src={Casino} alt='Casino' to='/Casino' />
+                        <NavButton src={Lotto} alt='Lotto' to='/Lotto' />
+                        <NavButton src={Contact} alt='Contact' to='/Contact' />
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
         </div>
     )
 }
@@ -48,7 +58,7 @@ function NavBarComponent(props){
 export default NavBarComponent
 
 /*
-{MenuList && 
+{MenuList &&
                 MenuList.map((v,i) => {
                     return (
                         <NavButton key={'NavBar-00'+i} src={v.image} alt={v.name} to={'/'+v.name}/>

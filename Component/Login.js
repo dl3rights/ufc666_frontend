@@ -7,7 +7,12 @@ import API from '../Function/useAPI'
 import { useRecoilState } from 'recoil';
 import { IsLoginState, IsAdminState } from '../Recoil';
 
-function Login(props){
+import Badge from '../images/Login/Badge.png'
+import Login_Bottons from '../images/Login/Login_Bottons.png'
+import Password_Botton from '../images/Login/Password_Botton.png'
+import Username_Botton from '../images/Login/Username_Botton.png'
+
+function Login(props) {
 
     const [IsLogin, setIsLogin] = useRecoilState(IsLoginState);
     const [IsAdmin, setIsAdmin] = useRecoilState(IsAdminState);
@@ -19,7 +24,7 @@ function Login(props){
         console.log(Username);
     }, [Username])
 
-    function SubmitLogin(){
+    function SubmitLogin() {
 
         setIsAdmin(true)
         setIsLogin(true)
@@ -32,18 +37,19 @@ function Login(props){
     }
 
     return (
-        <Form>
-            <Form.Group>
-                <Form.Label>Username</Form.Label>
-                <Form.Control type='text' placeholder='Enter Username' value={Username} onChange={(e) => {setUsername(e.target.value)}} />
+        <Form className='form-bg mx-auto'>
+            <h2>Login</h2>
+            <Form.Group className="mx-auto">
+                <div className="username-input">
+                    <Form.Control type='text' placeholder='Enter Username' value={Username} onChange={(e) => { setUsername(e.target.value) }} />
+                </div>
             </Form.Group>
-            <Form.Group>
-                <Form.Label>Password</Form.Label>
-                <Form.Control type='text' placeholder='Enter Password' value={Password} onChange={(e) => {setPassword(e.target.value)}} />
+            <Form.Group >
+                <div className="password-input">
+                    <Form.Control type='text' placeholder='Enter Password' value={Password} onChange={(e) => { setPassword(e.target.value) }} />
+                </div>
             </Form.Group>
-            <Button variant="primary" onClick={()=>{SubmitLogin()}}>
-                Login to {props.goto}
-            </Button>
+            <div onClick={() => { SubmitLogin() }} className="login-btn mx-auto"></div>
         </Form>
     )
 }

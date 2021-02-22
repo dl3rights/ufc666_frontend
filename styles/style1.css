@@ -1,16 +1,112 @@
-.admin-btn{
-    padding: 10px;
-    position: fixed;
-    left: 30px;
-    bottom: 30px;
-    border: cyan solid 3px;
-    cursor: pointer;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
+body {
+  background-image: url(../images/BG/BG.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: -999;
+}
+.nav-menu {
+  text-align: center;
+}
+.nav-menu a {
+  float: right;
+  margin-right: 30px;
+  max-width: 163px;
+  text-align: center;
+  margin-top: 10px;
+}
+.form-bg {
+  background-image: url("../images/Login/Badge.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  max-width: 320px;
+  min-height: 417px;
+}
+.form-bg h2 {
+  text-align: center;
+  padding-top: 70px;
+  color: #fff;
+}
+.username-input {
+  padding-top: 30px;
+}
+.username-input input {
+  background-image: url("../images/Login/Username_Botton.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  max-width: 226px;
+  min-height: 51px;
+  background-color: transparent;
+  border: none;
+  padding-left: 30px;
+  margin-left: 42px;
+}
+.username-input input:focus,
+.password-input input:focus {
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  outline-style: none;
+  border: transparent;
+}
+.form-control {
+  border: none;
+  outline: 0;
+  outline-style: none;
+  border: transparent;
+}
+.password-input input {
+  background-image: url("../images/Login/Username_Botton.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  max-width: 226px;
+  min-height: 51px;
+  background-color: transparent;
+  border: none;
+  padding-left: 30px;
+  margin-left: 42px;
+}
+.password-input {
+  margin-top: 20px;
+}
+.login-btn {
+  background-image: url("../images/Login/Login_Bottons.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  max-width: 166px;
+  min-height: 60px;
+  background-color: transparent;
+  border: none;
+  padding-left: 30px;
+  margin-left: 30px;
+}
+.admin-btn {
+  padding: 10px;
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  border: cyan solid 3px;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
 
-.navBarDivider{
-    width: 100%;
-    padding: 20px;
+.navBarDivider {
+  width: 100%;
+  padding: 20px;
 }

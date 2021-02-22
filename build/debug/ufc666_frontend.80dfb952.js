@@ -29780,9 +29780,21 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"../styles/style1.css":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"../images/Login/Badge.png":[function(require,module,exports) {
 "use strict";
-},{}],"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/typeof.js":[function(require,module,exports) {
+
+module.exports = "/Badge.7cb7b358.png";
+},{}],"../images/Login/Username_Botton.png":[function(require,module,exports) {
+"use strict";
+
+module.exports = "/Username_Botton.912c1bb7.png";
+},{}],"../images/Login/Login_Bottons.png":[function(require,module,exports) {
+"use strict";
+
+module.exports = "/Login_Bottons.14095d52.png";
+},{}],"../styles/style1.css":[function(require,module,exports) {
+"use strict";
+},{"./..\\images\\BG\\BG.png":[["BG.3c3a9444.png","../images/BG/BG.png"],"../images/BG/BG.png"],"./..\\images\\Login\\Badge.png":[["Badge.7cb7b358.png","../images/Login/Badge.png"],"../images/Login/Badge.png"],"./..\\images\\Login\\Username_Botton.png":[["Username_Botton.912c1bb7.png","../images/Login/Username_Botton.png"],"../images/Login/Username_Botton.png"],"./..\\images\\Login\\Login_Bottons.png":[["Login_Bottons.14095d52.png","../images/Login/Login_Bottons.png"],"../images/Login/Login_Bottons.png"]}],"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/typeof.js":[function(require,module,exports) {
 function _typeof(obj) {
   "@babel/helpers - typeof";
 
@@ -51130,7 +51142,7 @@ if ("development" !== "production") {
 },{"react-router":"../node_modules/react-router/esm/react-router.js","@babel/runtime/helpers/esm/inheritsLoose":"../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","react":"../node_modules/react/index.js","history":"../node_modules/history/esm/history.js","prop-types":"../node_modules/prop-types/index.js","tiny-warning":"../node_modules/tiny-warning/dist/tiny-warning.esm.js","@babel/runtime/helpers/esm/extends":"../node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","tiny-invariant":"../node_modules/tiny-invariant/dist/tiny-invariant.esm.js"}],"../Component/NavButton.jsx":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireWildcard = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+var _interopRequireWildcard = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -51141,7 +51153,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _reactRouterDom = require("react-router-dom");
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\NavButton.jsx";
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\Component\\NavButton.jsx";
 
 function NavButton(props) {
   var src = props.src,
@@ -51173,7 +51185,7 @@ function NavButton(props) {
 
 var _default = NavButton;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js"}],"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js"}],"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -51212,20 +51224,20 @@ function _createClass(Constructor, protoProps, staticProps) {
 },{}],"../Function/API.js":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _regenerator = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator"));
+var _regenerator = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator"));
 
-var _asyncToGenerator2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator"));
+var _asyncToGenerator2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator"));
 
-var _classCallCheck2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck"));
+var _classCallCheck2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck"));
 
-var _createClass2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass"));
+var _createClass2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass"));
 
 //import { socket, sc } from '../socket'
 function handleErrors(response) {
@@ -51239,7 +51251,7 @@ function handleErrors(response) {
 var API = /*#__PURE__*/function () {
   function API(token) {
     (0, _classCallCheck2["default"])(this, API);
-    this.url = "http://127.0.0.1:5000" + '/';
+    this.url = undefined + '/';
     this.token = token;
     this.JWTHeader = {
       headers: new Headers({
@@ -51892,7 +51904,7 @@ var API = /*#__PURE__*/function () {
 
 var _default = API;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator/index.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js"}],"../node_modules/cookie/index.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator/index.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js"}],"../node_modules/cookie/index.js":[function(require,module,exports) {
 /*!
  * cookie
  * Copyright(c) 2012-2014 Roman Shtylman
@@ -52476,7 +52488,7 @@ exports.default = {
 },{"cookie":"../node_modules/cookie/index.js","object-assign":"../node_modules/object-assign/index.js","process":"../node_modules/process/browser.js"}],"../Function/useAPI.js":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -52490,7 +52502,7 @@ var _reactCookies = _interopRequireDefault(require("react-cookies"));
 var API = new _API["default"](_reactCookies["default"].load('utoken'));
 var _default = API;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","./API":"../Function/API.js","react-cookies":"../node_modules/react-cookies/build/cookie.js"}],"../node_modules/parseuri/index.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","./API":"../Function/API.js","react-cookies":"../node_modules/react-cookies/build/cookie.js"}],"../node_modules/parseuri/index.js":[function(require,module,exports) {
 /**
  * Parses an URI
  *
@@ -62008,7 +62020,7 @@ exports.Socket = require('./socket');
 },{"./url":"../node_modules/socket.io-client/lib/url.js","socket.io-parser":"../node_modules/socket.io-parser/index.js","./manager":"../node_modules/socket.io-client/lib/manager.js","debug":"../node_modules/socket.io-client/node_modules/debug/src/browser.js","./socket":"../node_modules/socket.io-client/lib/socket.js"}],"../Socket/index.js":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -62017,10 +62029,10 @@ exports["default"] = void 0;
 
 var _socket = _interopRequireDefault(require("socket.io-client"));
 
-var socket = (0, _socket["default"])("http://127.0.0.1:5000");
+var socket = (0, _socket["default"])(undefined);
 var _default = socket;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","socket.io-client":"../node_modules/socket.io-client/lib/index.js"}],"../images/Menu/Logo_Small.png":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","socket.io-client":"../node_modules/socket.io-client/lib/index.js"}],"../images/Menu/Logo_Small.png":[function(require,module,exports) {
 "use strict";
 
 module.exports = "/Logo_Small.2ba2b839.png";
@@ -62044,19 +62056,23 @@ module.exports = "/Lotto.975ec091.png";
 "use strict";
 
 module.exports = "/Contact.b42f0fdb.png";
+},{}],"../images/Menu/Header_Border.png":[function(require,module,exports) {
+"use strict";
+
+module.exports = "/Header_Border.b14d4029.png";
 },{}],"../Component/NavBarComponent.js":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
-var _interopRequireWildcard = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+var _interopRequireWildcard = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _slicedToArray2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
+var _slicedToArray2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -62080,7 +62096,9 @@ var _Lotto = _interopRequireDefault(require("../images/Menu/Lotto.png"));
 
 var _Contact = _interopRequireDefault(require("../images/Menu/Contact.png"));
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\NavBarComponent.js";
+var _Header_Border = _interopRequireDefault(require("../images/Menu/Header_Border.png"));
+
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\Component\\NavBarComponent.js";
 
 function NavBarComponent(props) {
   var _useState = (0, _react.useState)(),
@@ -62103,32 +62121,83 @@ function NavBarComponent(props) {
     LoadMenuList();
   }, []);
   return /*#__PURE__*/_react["default"].createElement("div", {
-    className: "navBarDivider shadow-sm",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 9
+    }
+  }, /*#__PURE__*/_react["default"].createElement("img", {
+    src: _Header_Border["default"],
+    className: "header",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 13
+    }
+  }), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar, {
+    collapseOnSelect: true,
+    expand: "lg",
+    bg: "transparent",
+    variant: "dark",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar.Brand, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 17
     }
   }, /*#__PURE__*/_react["default"].createElement(_NavButton["default"], {
     src: _Logo_Small["default"],
     alt: "Home",
     to: "/Home",
+    className: "mx-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 13
+      lineNumber: 41,
+      columnNumber: 32
     }
-  }), /*#__PURE__*/_react["default"].createElement(_NavButton["default"], {
+  })), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar.Toggle, {
+    "aria-controls": "responsive-navbar-nav",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 17
+    }
+  }), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar.Collapse, {
+    id: "responsive-navbar-nav ",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Nav, {
+    className: "nav-menu ml-auto",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 21
+    }
+  }, /*#__PURE__*/_react["default"].createElement(_NavButton["default"], {
     src: _Sport["default"],
     alt: "Sport",
     to: "/Sport",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 13
+      lineNumber: 46,
+      columnNumber: 25
     }
   }), /*#__PURE__*/_react["default"].createElement(_NavButton["default"], {
     src: _SlotGame["default"],
@@ -62137,8 +62206,8 @@ function NavBarComponent(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 13
+      lineNumber: 47,
+      columnNumber: 25
     }
   }), /*#__PURE__*/_react["default"].createElement(_NavButton["default"], {
     src: _Casino["default"],
@@ -62147,8 +62216,8 @@ function NavBarComponent(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 13
+      lineNumber: 48,
+      columnNumber: 25
     }
   }), /*#__PURE__*/_react["default"].createElement(_NavButton["default"], {
     src: _Lotto["default"],
@@ -62157,8 +62226,8 @@ function NavBarComponent(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 13
+      lineNumber: 49,
+      columnNumber: 25
     }
   }), /*#__PURE__*/_react["default"].createElement(_NavButton["default"], {
     src: _Contact["default"],
@@ -62167,15 +62236,15 @@ function NavBarComponent(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 13
+      lineNumber: 50,
+      columnNumber: 25
     }
-  }));
+  })))));
 }
 
 var _default = NavBarComponent;
 /*
-{MenuList && 
+{MenuList &&
                 MenuList.map((v,i) => {
                     return (
                         <NavButton key={'NavBar-00'+i} src={v.image} alt={v.name} to={'/'+v.name}/>
@@ -62185,19 +62254,19 @@ var _default = NavBarComponent;
 */
 
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./NavButton":"../Component/NavButton.jsx","../Function/useAPI":"../Function/useAPI.js","../Socket":"../Socket/index.js","../images/Menu/Logo_Small.png":"../images/Menu/Logo_Small.png","../images/Menu/Sport.png":"../images/Menu/Sport.png","../images/Menu/SlotGame.png":"../images/Menu/SlotGame.png","../images/Menu/Casino.png":"../images/Menu/Casino.png","../images/Menu/Lotto.png":"../images/Menu/Lotto.png","../images/Menu/Contact.png":"../images/Menu/Contact.png"}],"../Component/AdminNavBarComponent.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./NavButton":"../Component/NavButton.jsx","../Function/useAPI":"../Function/useAPI.js","../Socket":"../Socket/index.js","../images/Menu/Logo_Small.png":"../images/Menu/Logo_Small.png","../images/Menu/Sport.png":"../images/Menu/Sport.png","../images/Menu/SlotGame.png":"../images/Menu/SlotGame.png","../images/Menu/Casino.png":"../images/Menu/Casino.png","../images/Menu/Lotto.png":"../images/Menu/Lotto.png","../images/Menu/Contact.png":"../images/Menu/Contact.png","../images/Menu/Header_Border.png":"../images/Menu/Header_Border.png"}],"../Component/AdminNavBarComponent.js":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
-var _interopRequireWildcard = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+var _interopRequireWildcard = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _slicedToArray2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
+var _slicedToArray2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -62207,7 +62276,7 @@ var _NavButton = _interopRequireDefault(require("./NavButton"));
 
 var _useAPI = _interopRequireDefault(require("../Function/useAPI"));
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\AdminNavBarComponent.js";
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\Component\\AdminNavBarComponent.js";
 
 function AdminNavBarComponent(props) {
   var _useState = (0, _react.useState)(),
@@ -62239,7 +62308,7 @@ function AdminNavBarComponent(props) {
 var _default = AdminNavBarComponent; //<NavButton src='' alt='Menu Editor' to='/MenuEditor'/>
 
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./NavButton":"../Component/NavButton.jsx","../Function/useAPI":"../Function/useAPI.js"}],"../node_modules/recoil/es/recoil.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./NavButton":"../Component/NavButton.jsx","../Function/useAPI":"../Function/useAPI.js"}],"../node_modules/recoil/es/recoil.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -67730,19 +67799,23 @@ Object.defineProperty(exports, "OpenAdminState", {
 });
 
 var _atoms = require("./atoms");
-},{"./atoms":"../Recoil/atoms.js"}],"../Component/Login.js":[function(require,module,exports) {
+},{"./atoms":"../Recoil/atoms.js"}],"../images/Login/Password_Botton.png":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+module.exports = "/Password_Botton.e212e994.png";
+},{}],"../Component/Login.js":[function(require,module,exports) {
+"use strict";
 
-var _interopRequireWildcard = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _slicedToArray2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
+var _slicedToArray2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -67754,7 +67827,15 @@ var _recoil = require("recoil");
 
 var _Recoil = require("../Recoil");
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\Login.js";
+var _Badge = _interopRequireDefault(require("../images/Login/Badge.png"));
+
+var _Login_Bottons = _interopRequireDefault(require("../images/Login/Login_Bottons.png"));
+
+var _Password_Botton = _interopRequireDefault(require("../images/Login/Password_Botton.png"));
+
+var _Username_Botton = _interopRequireDefault(require("../images/Login/Username_Botton.png"));
+
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\Component\\Login.js";
 
 function Login(props) {
   var _useRecoilState = (0, _recoil.useRecoilState)(_Recoil.IsLoginState),
@@ -67793,27 +67874,37 @@ function Login(props) {
   }
 
   return /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form, {
+    className: "form-bg mx-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 40,
       columnNumber: 9
     }
-  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Group, {
+  }, /*#__PURE__*/_react["default"].createElement("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 41,
       columnNumber: 13
     }
-  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Label, {
+  }, "Login"), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Group, {
+    className: "mx-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 42,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/_react["default"].createElement("div", {
+    className: "username-input",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
       columnNumber: 17
     }
-  }, "Username"), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Control, {
+  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Control, {
     type: "text",
     placeholder: "Enter Username",
     value: Username,
@@ -67823,24 +67914,25 @@ function Login(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 17
+      lineNumber: 44,
+      columnNumber: 21
     }
-  })), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Group, {
+  }))), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Group, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 47,
       columnNumber: 13
     }
-  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Label, {
+  }, /*#__PURE__*/_react["default"].createElement("div", {
+    className: "password-input",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 48,
       columnNumber: 17
     }
-  }, "Password"), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Control, {
+  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Control, {
     type: "text",
     placeholder: "Enter Password",
     value: Password,
@@ -67850,38 +67942,38 @@ function Login(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 17
+      lineNumber: 49,
+      columnNumber: 21
     }
-  })), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Button, {
-    variant: "primary",
+  }))), /*#__PURE__*/_react["default"].createElement("div", {
     onClick: function onClick() {
       SubmitLogin();
     },
+    className: "login-btn mx-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 52,
       columnNumber: 13
     }
-  }, "Login to ", props["goto"]));
+  }));
 }
 
 var _default = Login;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","../Function/useAPI":"../Function/useAPI.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js"}],"../Component/HomeEditor.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","../Function/useAPI":"../Function/useAPI.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js","../images/Login/Badge.png":"../images/Login/Badge.png","../images/Login/Login_Bottons.png":"../images/Login/Login_Bottons.png","../images/Login/Password_Botton.png":"../images/Login/Password_Botton.png","../images/Login/Username_Botton.png":"../images/Login/Username_Botton.png"}],"../Component/HomeEditor.js":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
-var _interopRequireWildcard = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+var _interopRequireWildcard = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _slicedToArray2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
+var _slicedToArray2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -67895,7 +67987,7 @@ var _Recoil = require("../Recoil");
 
 var _useAPI = _interopRequireDefault(require("../Function/useAPI"));
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\HomeEditor.js";
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\Component\\HomeEditor.js";
 
 function HomeEditor(props) {
   var _useRecoilState = (0, _recoil.useRecoilState)(_Recoil.IsLoginState),
@@ -68108,19 +68200,19 @@ function HomeEditor(props) {
 
 var _default = HomeEditor;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js","../Function/useAPI":"../Function/useAPI.js"}],"../Component/MenuEditor.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js","../Function/useAPI":"../Function/useAPI.js"}],"../Component/MenuEditor.js":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
-var _interopRequireWildcard = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+var _interopRequireWildcard = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _slicedToArray2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
+var _slicedToArray2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -68136,7 +68228,7 @@ var _useAPI = _interopRequireDefault(require("../Function/useAPI"));
 
 var _Socket = _interopRequireDefault(require("../Socket"));
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\MenuEditor.js";
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\Component\\MenuEditor.js";
 
 function MenuEditor(props) {
   var _this = this;
@@ -68326,19 +68418,27 @@ function MenuEditor(props) {
 
 var _default = MenuEditor;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js","../Function/useAPI":"../Function/useAPI.js","../Socket":"../Socket/index.js"}],"../Component/Home.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js","../Function/useAPI":"../Function/useAPI.js","../Socket":"../Socket/index.js"}],"../images/Banners/Banner01.png":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+module.exports = "/Banner01.f75e3565.png";
+},{}],"../images/Banners/Banner02.png":[function(require,module,exports) {
+"use strict";
 
-var _interopRequireWildcard = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+module.exports = "/Banner02.f8a66782.png";
+},{}],"../Component/Home.js":[function(require,module,exports) {
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _slicedToArray2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
+var _slicedToArray2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -68352,7 +68452,11 @@ var _recoil = require("recoil");
 
 var _Recoil = require("../Recoil");
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\Home.js";
+var _Banner = _interopRequireDefault(require("../images/Banners/Banner01.png"));
+
+var _Banner2 = _interopRequireDefault(require("../images/Banners/Banner02.png"));
+
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\Component\\Home.js";
 
 function Home(props) {
   var _useParams = (0, _reactRouterDom.useParams)(),
@@ -68378,134 +68482,143 @@ function Home(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 25,
       columnNumber: 9
     }
   }, OpenAdmin ? /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Container, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 27,
       columnNumber: 17
     }
-  }, "Admin Page.") : /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Container, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 17
-    }
-  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Row, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 21
-    }
-  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Col, {
+  }, "Admin Page.") : /*#__PURE__*/_react["default"].createElement("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 25
+      columnNumber: 21
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Container, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
-      columnNumber: 29
+      columnNumber: 25
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Row, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 33
+      lineNumber: 36,
+      columnNumber: 29
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Col, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 37
+      lineNumber: 37,
+      columnNumber: 33
     }
-  }, /*#__PURE__*/_react["default"].createElement("img", {
-    src: "http://127.0.0.1:5000" + '/banner?f=Banner01',
-    alt: 'Picture1',
+  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Container, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
+      columnNumber: 37
+    }
+  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Row, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
       columnNumber: 41
+    }
+  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Col, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 45
+    }
+  }, /*#__PURE__*/_react["default"].createElement("img", {
+    src: _Banner["default"],
+    alt: 'Picture1',
+    className: "mt-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 49
     }
   }))), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Row, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 33
+      lineNumber: 44,
+      columnNumber: 41
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Col, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 37
+      lineNumber: 45,
+      columnNumber: 45
     }
   }, /*#__PURE__*/_react["default"].createElement("img", {
-    src: "http://127.0.0.1:5000" + '/banner?f=Banner02',
+    src: _Banner2["default"],
     alt: 'Picture2',
+    className: "mt-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 41
+      lineNumber: 46,
+      columnNumber: 49
     }
   }))))), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Col, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 25
+      lineNumber: 51,
+      columnNumber: 33
     }
   }, IsLogin ? /*#__PURE__*/_react["default"].createElement("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 33
+      lineNumber: 53,
+      columnNumber: 41
     }
   }, "Already Login ", routename) : /*#__PURE__*/_react["default"].createElement(_Login["default"], {
     "goto": routename,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 33
+      lineNumber: 57,
+      columnNumber: 45
     }
-  })))));
+  }))))));
 }
 
 var _default = Home;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js"}],"../images/Login/QR.png":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js","../images/Banners/Banner01.png":"../images/Banners/Banner01.png","../images/Banners/Banner02.png":"../images/Banners/Banner02.png"}],"../images/Login/QR.png":[function(require,module,exports) {
 "use strict";
 
 module.exports = "/QR.2b19ec39.png";
 },{}],"../Component/Contact.js":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
-var _interopRequireWildcard = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+var _interopRequireWildcard = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _slicedToArray2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
+var _slicedToArray2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -68519,7 +68632,7 @@ var _Recoil = require("../Recoil");
 
 var _QR = _interopRequireDefault(require("../images/Login/QR.png"));
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\Contact.js";
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\Component\\Contact.js";
 
 function Home(props) {
   var _useRecoilState = (0, _recoil.useRecoilState)(_Recoil.IsLoginState),
@@ -68559,19 +68672,19 @@ function Home(props) {
 
 var _default = Home;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js","../images/Login/QR.png":"../images/Login/QR.png"}],"../Component/ImageContent.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Login":"../Component/Login.js","recoil":"../node_modules/recoil/es/recoil.js","../Recoil":"../Recoil/index.js","../images/Login/QR.png":"../images/Login/QR.png"}],"../Component/ImageContent.js":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
-var _interopRequireWildcard = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+var _interopRequireWildcard = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _slicedToArray2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
+var _slicedToArray2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -68581,7 +68694,7 @@ var _reactRouterDom = require("react-router-dom");
 
 var _useAPI = _interopRequireDefault(require("../Function/useAPI"));
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\Component\\ImageContent.js";
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\Component\\ImageContent.js";
 
 function ImageContent(props) {
   var _useParams = (0, _reactRouterDom.useParams)(),
@@ -68631,23 +68744,27 @@ function ImageContent(props) {
 
 var _default = ImageContent;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../Function/useAPI":"../Function/useAPI.js"}],"../App.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../Function/useAPI":"../Function/useAPI.js"}],"../images/BG/Footer.png":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+module.exports = "/Footer.71e73e71.png";
+},{}],"../App.js":[function(require,module,exports) {
+"use strict";
 
-var _interopRequireWildcard = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _regenerator = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator"));
+var _regenerator = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator"));
 
-var _asyncToGenerator2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator"));
+var _asyncToGenerator2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator"));
 
-var _slicedToArray2 = _interopRequireDefault(require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
+var _slicedToArray2 = _interopRequireDefault(require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray"));
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -68677,7 +68794,9 @@ var _recoil = require("recoil");
 
 var _Recoil = require("./Recoil");
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\App.js";
+var _Footer = _interopRequireDefault(require("./images/BG/Footer.png"));
+
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\App.js";
 
 function App(props) {
   var _this = this;
@@ -68760,14 +68879,14 @@ function App(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 70,
       columnNumber: 9
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactHelmet.Helmet, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 71,
       columnNumber: 13
     }
   }, /*#__PURE__*/_react["default"].createElement("meta", {
@@ -68775,14 +68894,14 @@ function App(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 72,
       columnNumber: 17
     }
   }), /*#__PURE__*/_react["default"].createElement("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 73,
       columnNumber: 17
     }
   }, "Test Title"), /*#__PURE__*/_react["default"].createElement("meta", {
@@ -68791,7 +68910,7 @@ function App(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 74,
       columnNumber: 17
     }
   })), IsAdmin && /*#__PURE__*/_react["default"].createElement("div", {
@@ -68802,21 +68921,21 @@ function App(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 76,
       columnNumber: 25
     }
   }, OpenAdmin ? 'Change to User' : 'Change to Admin'), OpenAdmin ? /*#__PURE__*/_react["default"].createElement(_AdminNavBarComponent["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 82,
       columnNumber: 21
     }
   }) : /*#__PURE__*/_react["default"].createElement(_NavBarComponent["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 86,
       columnNumber: 21
     }
   }), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Container, {
@@ -68824,28 +68943,28 @@ function App(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 90,
       columnNumber: 13
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Row, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 91,
       columnNumber: 17
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Col, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 92,
       columnNumber: 21
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactRouterDom.Switch, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 93,
       columnNumber: 25
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactRouterDom.Route, {
@@ -68858,7 +68977,7 @@ function App(props) {
         __self: _this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98,
+          lineNumber: 100,
           columnNumber: 41
         }
       });
@@ -68866,7 +68985,7 @@ function App(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 94,
       columnNumber: 29
     }
   }), /*#__PURE__*/_react["default"].createElement(_reactRouterDom.Route, {
@@ -68875,7 +68994,7 @@ function App(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 104,
       columnNumber: 29
     }
   }), /*#__PURE__*/_react["default"].createElement(_reactRouterDom.Route, {
@@ -68884,7 +69003,7 @@ function App(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 105,
       columnNumber: 29
     }
   }), /*#__PURE__*/_react["default"].createElement(_reactRouterDom.Route, {
@@ -68893,7 +69012,7 @@ function App(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 106,
       columnNumber: 29
     }
   }), /*#__PURE__*/_react["default"].createElement(_reactRouterDom.Route, {
@@ -68902,18 +69021,27 @@ function App(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 107,
       columnNumber: 29
     }
-  }))))));
+  }))))), /*#__PURE__*/_react["default"].createElement("img", {
+    src: _Footer["default"],
+    className: "footer",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112,
+      columnNumber: 13
+    }
+  }));
 }
 
 var _default = App;
 exports["default"] = _default;
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator/index.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js","C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","react-helmet":"../node_modules/react-helmet/es/Helmet.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","./Component/NavBarComponent":"../Component/NavBarComponent.js","./Component/AdminNavBarComponent":"../Component/AdminNavBarComponent.js","./Component/HomeEditor":"../Component/HomeEditor.js","./Component/MenuEditor":"../Component/MenuEditor.js","./Component/Home":"../Component/Home.js","./Component/Contact":"../Component/Contact.js","./Component/ImageContent":"../Component/ImageContent.js","./Function/useAPI":"../Function/useAPI.js","recoil":"../node_modules/recoil/es/recoil.js","./Recoil":"../Recoil/index.js"}],"../index.js":[function(require,module,exports) {
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireWildcard.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/regenerator/index.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js","C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js","react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","react-helmet":"../node_modules/react-helmet/es/Helmet.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","./Component/NavBarComponent":"../Component/NavBarComponent.js","./Component/AdminNavBarComponent":"../Component/AdminNavBarComponent.js","./Component/HomeEditor":"../Component/HomeEditor.js","./Component/MenuEditor":"../Component/MenuEditor.js","./Component/Home":"../Component/Home.js","./Component/Contact":"../Component/Contact.js","./Component/ImageContent":"../Component/ImageContent.js","./Function/useAPI":"../Function/useAPI.js","recoil":"../node_modules/recoil/es/recoil.js","./Recoil":"../Recoil/index.js","./images/BG/Footer.png":"../images/BG/Footer.png"}],"../index.js":[function(require,module,exports) {
 "use strict";
 
-var _interopRequireDefault = require("C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -68929,7 +69057,7 @@ require("bootstrap/dist/css/bootstrap.min.css");
 
 var _recoil = require("recoil");
 
-var _jsxFileName = "C:\\Users\\uSEr\\Desktop\\KProject\\ufc666_frontend\\index.js";
+var _jsxFileName = "C:\\Users\\dabornz\\Desktop\\25k\\web\\ufc666_frontend\\index.js";
 
 _reactDom["default"].render( /*#__PURE__*/_react["default"].createElement(_recoil.RecoilRoot, {
   __self: void 0,
@@ -68957,5 +69085,5 @@ _reactDom["default"].render( /*#__PURE__*/_react["default"].createElement(_recoi
 if (module.hot) {
   module.hot.accept();
 }
-},{"C:/Users/uSEr/Desktop/KProject/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./styles/style1.css":"../styles/style1.css","./App":"../App.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","bootstrap/dist/css/bootstrap.min.css":"../node_modules/parcel-bundler/src/builtins/_empty.js","recoil":"../node_modules/recoil/es/recoil.js"}]},{},["../index.js"], null)
+},{"C:/Users/dabornz/Desktop/25k/web/ufc666_frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault":"../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault.js","react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./styles/style1.css":"../styles/style1.css","./App":"../App.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","bootstrap/dist/css/bootstrap.min.css":"../node_modules/parcel-bundler/src/builtins/_empty.js","recoil":"../node_modules/recoil/es/recoil.js"}]},{},["../index.js"], null)
 //# sourceMappingURL=/ufc666_frontend.80dfb952.js.map

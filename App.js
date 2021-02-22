@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Col, Container, Row } from "react-bootstrap";
 import { Helmet } from 'react-helmet'
 import { Route, Switch, Redirect, useHistory } from 'react-router-dom';
@@ -15,6 +15,8 @@ import API from './Function/useAPI'
 import { useRecoilState } from 'recoil';
 import { IsLoginState, IsAdminState, OpenAdminState } from './Recoil';
 
+import Footer from './images/BG/Footer.png'
+
 
 function App(props) {
 
@@ -26,64 +28,64 @@ function App(props) {
 
     const [OpenAdmin, setOpenAdmin] = useRecoilState(OpenAdminState)
 
-    async function CheckAuth(){
+    async function CheckAuth() {
         try {
-          await API.CheckAuth()
-          .then( response => {
-            //console.log('response',response);
-            if(response){
-              //console.log(response.permission);
-              if(response.permission >= 99){
-                setIsLogin(true)
-                setIsAdmin(true)
-              }
-              
-            }else{
-    
-            }
-          })
+            await API.CheckAuth()
+                .then(response => {
+                    //console.log('response',response);
+                    if (response) {
+                        //console.log(response.permission);
+                        if (response.permission >= 99) {
+                            setIsLogin(true)
+                            setIsAdmin(true)
+                        }
+
+                    } else {
+
+                    }
+                })
         } catch (error) {
-          
+
         }
-      }
+    }
 
 
     useEffect(() => {
-    
+
         CheckAuth()
 
     }, [])
 
-    function ToggleOpenAdmin(){
+    function ToggleOpenAdmin() {
         setOpenAdmin(!OpenAdmin)
         console.log(OpenAdmin);
-        if(!OpenAdmin){
+        if (!OpenAdmin) {
             history.push('/HomeEditor')
-        }else{
+        } else {
             history.push('/Home')
         }
     }
 
-    return(
+    return (
         <div>
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Test Title</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
-            {IsAdmin && <div className='admin-btn' onClick={()=> { ToggleOpenAdmin() }}>
+            {IsAdmin && <div className='admin-btn' onClick={() => { ToggleOpenAdmin() }}>
                 {OpenAdmin ? 'Change to User' : 'Change to Admin'}
             </div>}
 
-            {OpenAdmin ? 
+            {OpenAdmin ?
                 (
-                    <AdminNavBarComponent/>
+                    <AdminNavBarComponent />
                 )
-            :
+                :
                 (
-                    <NavBarComponent/>
+                    <NavBarComponent />
                 )}
-            
+
 
             <Container fluid>
                 <Row>
@@ -107,6 +109,7 @@ function App(props) {
                     </Col>
                 </Row>
             </Container>
+            <img src={Footer} className='footer' />
         </div>
     )
 }
