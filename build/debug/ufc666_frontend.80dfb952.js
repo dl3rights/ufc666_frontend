@@ -67882,6 +67882,7 @@ function Login(props) {
       columnNumber: 9
     }
   }, /*#__PURE__*/_react["default"].createElement("h2", {
+    className: "text-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,

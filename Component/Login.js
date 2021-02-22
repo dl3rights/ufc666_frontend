@@ -38,7 +38,7 @@ function Login(props) {
 
     return (
         <Form className='form-bg mx-auto'>
-            <h2>Login</h2>
+            <h2 className='text-center'>Login</h2>
             <Form.Group className="mx-auto">
                 <div className="username-input">
                     <Form.Control type='text' placeholder='Enter Username' value={Username} onChange={(e) => { setUsername(e.target.value) }} />

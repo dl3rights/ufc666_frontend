@@ -56,10 +56,9 @@ body {
 .username-input input:focus,
 .password-input input:focus {
   background-color: transparent;
-  border: none;
-  outline: 0;
-  outline-style: none;
-  border: transparent;
+  border-color: none;
+  box-shadow: none;
+  outline: 0 none;
 }
 .form-control {
   border: none;
