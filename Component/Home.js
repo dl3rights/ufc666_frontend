@@ -35,15 +35,19 @@ function Home(props) {
 
                             <Row>
                                 <Col>
-                                    <Container>
+                                    <Container className='img-content-box shadow'>
                                         <Row>
                                             <Col>
-                                                <img src={Banner01} alt={'Picture1'} className='mt-4' />
+                                                <div className='img-content'>
+                                                    <img src={Banner01} alt={'Picture1'} className='mt-4' />
+                                                </div>
                                             </Col>
                                         </Row>
                                         <Row>
                                             <Col>
-                                                <img src={Banner02} alt={'Picture2'} className='mt-4' />
+                                                <div className='img-content'>
+                                                    <img src={Banner02} alt={'Picture2'} className='mt-4' />
+                                                </div>
                                             </Col>
                                         </Row>
                                     </Container>

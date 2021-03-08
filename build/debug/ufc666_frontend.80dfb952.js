@@ -67873,37 +67873,45 @@ function Login(props) {
     })*/
   }
 
-  return /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form, {
-    className: "form-bg mx-auto",
+  return /*#__PURE__*/_react["default"].createElement("div", {
+    className: "login-content shadow",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
       columnNumber: 9
     }
-  }, /*#__PURE__*/_react["default"].createElement("h2", {
-    className: "text-center",
+  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form, {
+    className: "form-bg mx-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 13
     }
+  }, /*#__PURE__*/_react["default"].createElement("h2", {
+    className: "text-center",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 17
+    }
   }, "Login"), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Group, {
     className: "mx-auto",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 13
+      lineNumber: 43,
+      columnNumber: 17
     }
   }, /*#__PURE__*/_react["default"].createElement("div", {
     className: "username-input",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 17
+      lineNumber: 44,
+      columnNumber: 21
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Control, {
     type: "text",
@@ -67915,23 +67923,23 @@ function Login(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 21
+      lineNumber: 45,
+      columnNumber: 25
     }
   }))), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Group, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 13
+      lineNumber: 48,
+      columnNumber: 17
     }
   }, /*#__PURE__*/_react["default"].createElement("div", {
     className: "password-input",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 17
+      lineNumber: 49,
+      columnNumber: 21
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Form.Control, {
     type: "text",
@@ -67943,8 +67951,8 @@ function Login(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 21
+      lineNumber: 50,
+      columnNumber: 25
     }
   }))), /*#__PURE__*/_react["default"].createElement("div", {
     onClick: function onClick() {
@@ -67954,10 +67962,10 @@ function Login(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 13
+      lineNumber: 53,
+      columnNumber: 17
     }
-  }));
+  })));
 }
 
 var _default = Login;
@@ -68522,6 +68530,7 @@ function Home(props) {
       columnNumber: 33
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Container, {
+    className: "img-content-box shadow",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -68542,6 +68551,14 @@ function Home(props) {
       lineNumber: 40,
       columnNumber: 45
     }
+  }, /*#__PURE__*/_react["default"].createElement("div", {
+    className: "img-content",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 49
+    }
   }, /*#__PURE__*/_react["default"].createElement("img", {
     src: _Banner["default"],
     alt: 'Picture1',
@@ -68549,22 +68566,30 @@ function Home(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 49
+      lineNumber: 42,
+      columnNumber: 53
     }
-  }))), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Row, {
+  })))), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Row, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 41
     }
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Col, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 47,
       columnNumber: 45
+    }
+  }, /*#__PURE__*/_react["default"].createElement("div", {
+    className: "img-content",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 49
     }
   }, /*#__PURE__*/_react["default"].createElement("img", {
     src: _Banner2["default"],
@@ -68573,21 +68598,21 @@ function Home(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 49
+      lineNumber: 49,
+      columnNumber: 53
     }
-  }))))), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Col, {
+  })))))), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Col, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 55,
       columnNumber: 33
     }
   }, IsLogin ? /*#__PURE__*/_react["default"].createElement("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 57,
       columnNumber: 41
     }
   }, "Already Login ", routename) : /*#__PURE__*/_react["default"].createElement(_Login["default"], {
@@ -68595,7 +68620,7 @@ function Home(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 61,
       columnNumber: 45
     }
   }))))));

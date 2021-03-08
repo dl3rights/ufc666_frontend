@@ -4,13 +4,13 @@ import { useParams } from 'react-router-dom';
 import API from '../Function/useAPI'
 
 
-function ImageContent(props){
+function ImageContent(props) {
 
     let { routename } = useParams();
 
     const style = {
-        weight:'100%',
-        height:'100%'
+        weight: '100%',
+        height: '100%',
     }
 
     const [ImageInfo, setImageInfo] = useState()
@@ -18,13 +18,13 @@ function ImageContent(props){
     useEffect(() => {
         setImageInfo()
         API.GetMenuByName(routename)
-        .then(response => {
-            console.log(routename,response);
-            setImageInfo({
-                src:response.image,
-                alt:response.name
+            .then(response => {
+                console.log(routename, response);
+                setImageInfo({
+                    src: response.image,
+                    alt: response.name
+                })
             })
-        })
     }, [routename])
 
     return (

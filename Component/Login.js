@@ -37,20 +37,22 @@ function Login(props) {
     }
 
     return (
-        <Form className='form-bg mx-auto'>
-            <h2 className='text-center'>Login</h2>
-            <Form.Group className="mx-auto">
-                <div className="username-input">
-                    <Form.Control type='text' placeholder='Enter Username' value={Username} onChange={(e) => { setUsername(e.target.value) }} />
-                </div>
-            </Form.Group>
-            <Form.Group >
-                <div className="password-input">
-                    <Form.Control type='text' placeholder='Enter Password' value={Password} onChange={(e) => { setPassword(e.target.value) }} />
-                </div>
-            </Form.Group>
-            <div onClick={() => { SubmitLogin() }} className="login-btn mx-auto"></div>
-        </Form>
+        <div className='login-content shadow'>
+            <Form className='form-bg mx-auto'>
+                <h2 className='text-center'>Login</h2>
+                <Form.Group className="mx-auto">
+                    <div className="username-input">
+                        <Form.Control type='text' placeholder='Enter Username' value={Username} onChange={(e) => { setUsername(e.target.value) }} />
+                    </div>
+                </Form.Group>
+                <Form.Group >
+                    <div className="password-input">
+                        <Form.Control type='text' placeholder='Enter Password' value={Password} onChange={(e) => { setPassword(e.target.value) }} />
+                    </div>
+                </Form.Group>
+                <div onClick={() => { SubmitLogin() }} className="login-btn mx-auto"></div>
+            </Form>
+        </div>
     )
 }
 
